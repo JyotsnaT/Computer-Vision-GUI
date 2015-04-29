@@ -1,3 +1,5 @@
+package components;
+
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -95,32 +97,3 @@ class filechoose extends JPanel implements ActionListener
 
 	
 }
-	
-/*
-public class comp_vision
-{
-	public static void main(String args[]) throws MatlabConnectionException,MatlabInvocationException
-	{
-		//create proxy to connect to matlab
-		
-		MatlabProxyFactoryOptions options = new MatlabProxyFactoryOptions.Builder().setUsePreviouslyControlledSession(true).setHidden(true).build();
-		RemoteMatlabProxyFactory factory = new RemoteMatlabProxyFactory(options);
-		final RemoteMatlabProxy proxy = (RemoteMatlabProxy)factory.getProxy();
-		
-		//vid_gui v = new vid_gui();
-		final filechoose FC = new filechoose();
-		SwingUtilities.invokeLater(new Runnable()
-		{
-			public void run()
-			{
-				FC.creatGUI();
-				proxy.disconnect();
-			}
-		
-		});
-	}
-
-	
-
-}
-*/
