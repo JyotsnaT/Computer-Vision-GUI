@@ -2,8 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="/home/jyotsna/Dropbox/workspace/mtlabcontrol/matlabcontrol-4.1.0.jar"/>
 	<classpathentry kind="lib" path="/home/jyotsna/Dropbox/workspace/mtlabcontrol/matlabcontrol-4.1.0-sources.jar"/>
 	<classpathentry kind="lib" path="/home/jyotsna/Dropbox/workspace/mtlabcontrol/matlabcontrol-4.1.0-javadoc.jar"/>
+=======
+	<classpathentry kind="lib" path="/home/jyotsna/workspace/mtlabcontrol/matlabcontrol-4.1.0.jar" sourcepath="/home/jyotsna/workspace/mtlabcontrol/matlabcontrol-4.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/jyotsna/workspace/mtlabcontrol/matlabcontrol-4.1.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/jyotsna/workspace/mtlabcontrol/matlabcontrol-4.1.0-sources.jar"/>
+>>>>>>> 33afb794f573d4408193e8abdd15e62ffaf403c8
 	<classpathentry kind="output" path="bin"/>
 </classpath>
